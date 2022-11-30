@@ -1,0 +1,37 @@
+.card{
+    border-radius: 5px;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    margin-bottom: 0.5%;
+    margin-left: 0.6%;
+    margin-right: 0.4%;
+    margin-top: 1.7%;
+    /* max-width: 20%; */
+    color : rgb(253, 249, 249);
+
+    font-style: groove;
+    padding: 10px;
+}
+.card:hover{
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: all 0.5s;
+}
+.cd{
+    padding: 10px;
+    width: 8cm;
+    height: 10cm;
+}
+.cardimg{
+    border-radius: 20px;
+}
+.tipes{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+    margin: 0.25cm;
+    padding: 1px;
+    
+}

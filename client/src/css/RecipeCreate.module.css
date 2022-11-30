@@ -1,0 +1,145 @@
+
+
+.bkg{
+    background-image: url('../icons/background1.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment:fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position:fixed;
+    display: flex;
+    flex-direction: column;
+    justify-content:start;
+    align-items: center;
+    
+}
+.container {
+    display: flex;
+    justify-content:flex-start;
+    justify-content: space-evenly;
+    flex-direction: column;
+    margin-top: 85px;
+}
+
+ 
+.error{
+ color: rgb(0, 0, 0);
+ background-color: rgb(246, 223, 223);
+ display: flex;
+ border-radius: 10px;
+ padding: 10px 15px 10px 15px;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc0cb, #800080); 
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 4px 4px 5px 5px rgb(255, 251, 251);    
+    
+}
+.correct{
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: italic;
+    color: #fbf3f3;
+    font-size: 17px;
+    background: #d002f9;
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+
+}
+.correct:hover {
+  background: #800080;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #ffc0cb, #800080); 
+    text-decoration: none;
+    cursor: pointer;
+  }
+.btn {
+  text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #e60073, 0 0 20px #e60073,
+  0 0 20px #e60073, 0 0 30px #e60073, 0 0 30px #e60073;
+    -webkit-border-radius: 10;
+    -moz-border-radius: 10;
+    border-radius: 10px;
+    font-family: italic;
+    color: #fdfdfd;
+    font-size: 17px;
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc0cb, #800080); 
+    padding: 10px 30px 10px 30px;
+    text-decoration: none;
+  }
+  
+  .btn:hover {
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #e60073, 0 0 20px #e60073,
+    0 0 20px #f7c0f1, 0 0 30px #fdbcf3, 0 0 30px #f7bdf9;
+    background: #010101;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #7a006c, #5e0059);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #7e0069, #800080); 
+    text-decoration: none;
+    cursor: pointer;
+  }
+  .h1{
+    text-shadow: 0 0 40px rgb(251, 169, 251), 0 0 40px rgb(247, 170, 249), 0 0 40px #f5a8f8, 0 0 40px #f8acfa,
+    0 0 50px #ffbefe, 0 0 50px #f1dbf5, 0 0 50px #f8ccf8;
+    background: #fbf9f9;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #f996e2, #7b0273); 
+    border-radius: 20px;
+    padding: 10px;
+    box-shadow: 4px 4px 5px 5px rgb(255, 252, 252);    
+    font-family: italic;
+  }
+
+  .types{
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #f588ec, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #fc84ec, #800080); 
+    border-radius: 5px;
+    padding: 0.8px;
+    box-shadow: 4px 4px 10px 10px rgb(251, 251, 251);    
+    font-family: italic;
+    display: inline-block;
+    flex-direction: row;
+  }
+
+  .btnx{
+    text-shadow: 0 0 20px #fff, 0 0 20px #fff, 0 0 20px #e60073, 0 0 20px #e60073,
+    0 0 20px #e60073, 0 0 30px #e60073, 0 0 30px #e60073;
+     color: #0b0b0b;
+    background: #800080;  /* fallback for old browsers */
+   
+  }
+  .tipos{
+      display: flex;
+      flex-direction: row;
+  }
+  .adv{
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc0cb, #800080); 
+    color: rgb(255, 251, 251);
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .select{
+    background: #800080;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #ffc0cb, #800080);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #ffc0cb, #800080); 
+    cursor: pointer;
+    display:inline-block;
+    justify-content: center;
+    text-align: center;
+    padding: 5px;
+    border-radius: 5px;
+    border-style: groove;
+  }
+  /* width */
+
